@@ -1,0 +1,31 @@
+{
+  "name": "restolia/http-testing",
+  "description": "A HTTP testing package for Restolia applications.",
+  "authors": [
+    {
+      "name": "Ben Osborne",
+      "email": "mr.ben.osborne@gmail.com"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "^8.1",
+    "restolia/framework": "2.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Restolia\\Testing\\Http\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
